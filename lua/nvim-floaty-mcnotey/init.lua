@@ -117,7 +117,3 @@ vim.api.nvim_create_user_command("FloatyMcNotey", function()
 end, { bang = true, desc = "toggle the floaty mcnotey notes window" })
 
 return M
-	M.toggle_floaty_mcnotes()
-end, { bang = true, desc = "toggle the floaty mcnotey notes window" })
-
-return M
